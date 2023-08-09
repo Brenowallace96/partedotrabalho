@@ -1,0 +1,60 @@
+/*Reset CSS*/
+*{
+    margin: 15px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("banner_arena.png");
+    background-position: right, top;
+    font-family: arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+.container{
+    background-image: url("fundo.jpg");
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.39);
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    font-size: 32px;
+    color: #fefcfc;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: #fff7f7;
+    margin-bottom: 30px;
+}
+
+form{
+    text-align: left;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 8px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #807878;
+    border: 1px solid #030303;
+    border-radius: 25px;
+}
